@@ -76,7 +76,8 @@ nav .nav .nav-right .search input {
   flex-flow: row;
 }
 
-.intro{
+.intro{;
+
 }
 
 h1{
@@ -236,8 +237,15 @@ span{
     width:100%;
     padding: 10px;
   }
+
+  .hero{
+
+  }
+
   .activity {
     flex-direction:column;
     align-items:center;
   }
+
+
 }
