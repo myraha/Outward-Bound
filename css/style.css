@@ -5,8 +5,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #333;
   box-sizing:border-box;
-
 }
+
 img {
   max-width:100%;
 }
@@ -20,34 +20,42 @@ nav {
   position: relative;
   min-height:60px;
 }
+
 nav .logo {
   width:120px;
 }
+
 .nav .nav-left {
   padding-top: 2px;
 }
+
 nav a {
   color:#999;
   text-decoration:none;
   margin-right:20px;
 }
+
 nav .nav {
   flex:1;
   display: flex;
   justify-content:space-between;
 }
+
 nav .nav .nav-right {
   display: flex;
   align-items:center;
 }
-nav .nav .nav-right .icons {
+
+nav .nav .nav-right{
   display: flex;
   align-items:center;
 }
+
 nav .nav .nav-right  .user-avator {
-  border-radius:50px;
-  width:25px;
+  border-radius: 50px;
+  width: 25px;
 }
+
 nav .nav .nav-right .search input {
   background: #fff;
   border-radius:3px;
@@ -56,16 +64,18 @@ nav .nav .nav-right .search input {
   position: relative;
   top:-2px;
 }
+
 .toggle-bars {
   position: absolute;
-  cursor:pointer;
+  cursor: pointer;
   display: none;
 }
+
 .toggle-bars .bar {
-  width:35px;
-  background-color:#ccc;
+  width: 35px;
+  background-color: #ccc;
   margin: 6px 0;
-  height:2px;
+  height: 2px;
 }
 
 .hero{
@@ -74,10 +84,6 @@ nav .nav .nav-right .search input {
   display: flex;
   flex-direction: column;
   flex-flow: row;
-}
-
-.intro{;
-
 }
 
 h1{
@@ -105,15 +111,17 @@ span{
 
 .activity {
   background: #F9F9F9;
-  padding:15px 30px;
+  padding: 15px 30px;
   display: flex;
   justify-content: center;
 }
+
 .activity a {
-  color:#999;
+  color: #999;
   text-decoration:none;
   padding:0 15px;
 }
+
 .activity a.active {
   color:#333;
 }
@@ -122,77 +130,91 @@ span{
   background: #F3F3F3;
   padding:30px 50px;
 }
+
 .shots-container {
   display: flex;
-  flex-wrap:wrap;
-  justify-content:center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .shot {
-  width:220px;
+  width: 220px;
   background: #fff;
-  padding:10px;
-  border-radius:3px;
+  padding: 10px;
+  border-radius: 3px;
   margin: 0 20px 20px 20px;
 }
+
 .info {
   display: flex;
-  justify-content:space-between;
-  padding:10px;
+  justify-content: space-between;
+  padding: 10px;
   padding-bottom: 0px;
 }
+
 .attatchment img {
   width:15px;
 }
+
 .counts {
   display: flex;
-  height:20px;
-  overflow:hidden;
+  height: 20px;
+  overflow: hidden;
 }
+
 .counts .view,
 .counts .comments,
 .counts .likes {
   display: flex;
-  align-items:center;
-  padding-left:10px;
-  color:#aaa;
-  font-size:12px;
+  align-items: center;
+  padding-left: 10px;
+  color: #aaa;
+  font-size: 12px;
 }
+
 .counts .view img,
 .counts .comments img,
 .counts .likes img {
-  padding-right:3px;
+  padding-right: 3px;
 }
+
 .counts .comments img {
   position: relative;
-  top:8px;
+  top: 8px;
 }
 
 @media screen and (max-width:940px){
   .logo {
     position: relative;
-    top:15px;
+    top: 15px;
   }
+
   .toggle-bars {
     display: block;
-    top:10px;
-    right:50px;
+    top: 10px;
+    right: 50px;
   }
+
   nav {
-    align-items:flex-start;
-    flex-direction:column;
+    align-items: flex-start;
+    flex-direction: column;
   }
+
   nav.pb {
     padding-bottom: 20px;
   }
+
   nav .nav {
     margin-top: 30px;
-    width:100%;
-    justify-content:space-between;
+    width: 100%;
+    justify-content: space-between;
     display: none;
   }
+
   .nav-left {
     margin-bottom: 20px;
   }
+
   nav .nav.show {
     display: block;
   }
@@ -200,52 +222,53 @@ span{
 
 @media screen and (max-width:790px){
   .nav {
-    flex-direction:column;
+    flex-direction: column;
   }
 
 }
 
 @media screen and (max-width:480px){
   nav {
-    align-items:flex-start;
-    flex-direction:column;
+    align-items: flex-start;
+    flex-direction: column;
   }
+
   .nav {
-    flex-direction:column;
+    flex-direction: column;
   }
 
   .nav-left {
     margin-top: 20px;
-    order:2;
+    order: 2;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
   }
+
   .nav-left a {
     margin-bottom: 10px;
   }
+
   nav .nav .nav-right {
-  flex-direction:column;
+  flex-direction: column;
     align-items:flex-start;
-}
+  }
+
    nav .nav .nav-right .icons {
       margin-bottom: 10px;
-}
+  }
+
   nav .nav .nav-right .search {
     width:100%;
   }
+
   nav .nav .nav-right .search input {
     width:100%;
     padding: 10px;
   }
 
-  .hero{
-
-  }
-
   .activity {
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
   }
-
 
 }
