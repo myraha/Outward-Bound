@@ -78,6 +78,12 @@ nav .nav .nav-right .search input {
   height: 2px;
 }
 
+.intro{
+  padding: 15px 30px;
+  display: flex;
+  justify-content: left;
+}
+
 .hero{
   background: #1ca4fc;
   height: 450px;
@@ -89,24 +95,8 @@ nav .nav .nav-right .search input {
 h1{
   font-size: 45px;
   font-weight: 300;
-  margin: 110px 0 15px 165px;
+  margin-top: 110px;
   color: #fff;
-}
-
-span{
-  font-size: 17px;
-  margin-left: 165px;
-}
-
-.headerPhotos{
-  display: flex;
-  margin-left: 95px;
-}
-
-.headerPhotos img{
-  height: 400px;
-  border-radius: 5px;
-  align-self: center;
 }
 
 .activity {
@@ -266,7 +256,7 @@ span{
     padding: 10px;
   }
 
-  .activity {
+  .intro, .activity {
     flex-direction: column;
     align-items: center;
   }
